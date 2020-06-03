@@ -1,0 +1,425 @@
+/* *******************  ************** *** */
+/* ********* Index Page Style **************/
+/* *******************  *************** ** */
+
+/* ********************** */
+/* Unerversal Style */
+/* ********************** */
+*{
+  box-sizing: border-box;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+p{
+  margin:0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+body{
+  background:#F6EFEF;
+}
+
+h2{
+  margin: 0;
+  padding: 0;
+}
+
+/* ********************** */
+/* Header Style */
+/* ********************** */
+header{
+  height: 25rem;
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top:3rem;
+}
+
+/* header-bar style */
+.head-bar{
+  background:tomato;
+  height: 3rem;
+  position: fixed;
+  z-index: 1000;
+  top:0;
+  width: 100%;
+}
+
+.bar-wrap{
+  width: 90%;
+  margin:auto;
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.bar-wrap{
+  color:white;
+}
+
+.bar-list li{
+  display: inline-block;
+  list-style:none;
+  margin-left: 2rem;
+}
+
+.bar-list{
+  margin: 1rem 0;
+}
+
+.bar-list a{
+  color:#721326;
+  transition: color .5s;
+  font-weight: bold;
+}
+
+.bar-list a:hover{
+  color: white;
+}
+
+/* profile style */
+.profile{
+  text-align: center;
+  padding-top: 5rem;
+}
+
+.profile-image{
+  width: 120px;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+  transition: transform .5s;
+}
+
+.profile-image:hover{
+  transform: scale(1.5) rotate(10deg);
+}
+
+.profile h1,
+.profile p{
+  width: 300px;
+  margin:auto;
+  padding:.8rem;
+  border-radius: 5px;
+}
+
+.profile h1{
+  background: tomato;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.profile p{
+  background: #EAB276;
+  color:white;
+  font-size: 1.5rem;
+}
+
+
+
+/* ********************** */
+/* Main section Style */
+/* ********************** */
+main{
+  display:flex;
+  justify-content: space-around;
+  margin: 5rem;
+}
+
+.background,
+.goal{
+  width: 43%;
+  background: white;
+  padding: 2rem 2rem;
+  box-shadow: -4px -6px 8px -5px black;
+  border-radius: 15px;
+  border-bottom: solid gray 10px;
+  transition: border-color .3s;
+}
+
+.background:hover,
+.goal:hover{
+  border-color:tomato;
+}
+
+.paragraph{
+  line-height: 1.3;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.paragraph:first-letter{
+  margin-left: 1rem;
+}
+
+.p-spacing{
+  margin-bottom: 2rem;
+}
+
+.background h2,
+.goal h2{
+  margin-bottom: 1rem;
+}
+/* main section list style */
+.goal ul{
+  margin:1rem;
+  text-align: center;
+}
+
+.goal li {
+  display: inline-block;
+  margin-left: 1rem;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  padding: 5px 10px;
+  color:white;
+  border-radius: 5px;
+}
+
+.goal li:nth-child(even){
+  background: #6888EE;
+
+}
+
+.goal li:nth-child(odd){
+  background: tomato;
+}
+
+/* ********************** */
+/* Footer section Style */
+/* ********************** */
+.icons{
+  margin-bottom: 20px;
+}
+
+svg{
+  width: 30px;
+  margin-left: 10px;
+}
+
+footer{
+  font-family: 'Playfair Display', serif;
+  text-align:center;
+   margin: 6rem;
+}
+
+.svg-icon{
+ fill:#DAB595;
+ transition: fill .3s;
+}
+
+.svg-icon:hover{
+  fill: tomato;
+}
+
+
+
+/* *******************  ************** *** */
+/* ********* Experience Page Style **************/
+/* *******************  *************** ** */
+
+  /* ***************** */
+/* ****Heander Style**** */
+  /* ***************** */
+.header-experience{
+  background-image: url("../images/experience.jpg");
+}
+.header-ex-info{
+  text-align:center;
+  padding-top: 5rem;
+  color: black;
+  text-shadow: 1px 1px 1px tomato;
+}
+.header-ex-info h1{
+  font-size: 2.5rem;
+  letter-spacing: 1rem;
+  transition: transform .5s ease-out;
+  margin-bottom: 4rem;
+}
+.header-ex-info h1:hover{
+  transform: scale(1.5);
+}
+.header-ex-info li{
+  margin-bottom: 1rem;
+  color: white;
+  font-size: 2rem;
+}
+
+
+  /* ***************** */
+/* ****Main Style******** */
+  /* ***************** */
+.experience{
+  width: 80%;
+  background:white;
+  padding: 2rem;
+  box-shadow: -4px -2px 5px 1px tomato;
+  border-radius: 10px;
+  border-bottom: solid gray 5px;
+}
+.experience h2{
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+.experience p{
+  font-family: 'Crimson Text', serif;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.experience h3{
+  text-align: center;
+  color: red;
+  margin: 2rem 0 6rem 0;
+}
+/********* Image Steyle *********/
+.img-frame{
+  margin-bottom: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img-frame img{
+  width: 100%;
+  transition: transform .3s ease-out;
+  padding: 1.5rem;
+  border-bottom: solid tomato 2px;
+}
+
+.img-frame img:hover{
+  transform: scale(1.1);
+}
+
+.img-frame figure{
+  width: 40%;
+  border: solid gray 2px;
+  border-radius: 10px;
+  margin-bottom: 5rem;
+}
+
+.img-frame figcaption{
+  margin-top: 6rem;
+  text-align: center;
+  padding: 1rem .5rem;
+  background: #F2D18D;
+  color: black;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+
+
+
+/* *******************  ************** *** */
+/* ********* hobbies Page Style **************/
+/* *******************  *************** ** */
+
+   /* ***************** */
+/* **** Header Style ******** */
+  /* ***************** */
+.header-hobbies{
+  background-image: url("../images/hobbies.jpg");
+}
+
+.hobbies_profile{
+  text-align: center;
+}
+
+.hobbies_profile img{
+  width: 10%;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  border-radius: 50%;
+  border: solid white 5px;
+  transition: transform .2s ease-out;
+}
+
+.hobbies_profile img:hover{
+  transform: scale(1.5);
+}
+
+.hobbies_profile h1{
+  padding: 1rem 2rem;
+  width: 20%;
+  margin: auto;
+  border: solid white 5px;
+  color: tomato;
+  font-size: 1.8rem;
+  border-radius: 10px;
+}
+
+.hobbies_profile p{
+  width: 20%;
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  padding: 1rem .2rem;
+  font-size: 1.4rem;
+  background: #D38A1D;
+  border-radius: 5px;
+  color: white;
+}
+
+
+
+/* ***************** */
+/* **** main Style ******** */
+/* ***************** */
+
+/* Gym-hobbies Layout */
+.gym-hobbies{
+  width: 80%;
+  margin: auto;
+  background: white;
+  padding: 3rem 2rem;
+  box-shadow: 1px 1px 10px 2px black;
+}
+
+.gym-hobbies h2{
+  margin: 1rem 0;
+}
+
+.gym-hobbies p,
+.shooting p{
+  font-family: 'Crimson Text', serif;
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+
+.line{
+  text-align: center;
+  color: red;
+  font-weight: bold;
+  padding : 2rem;
+}
+
+.video1{
+  margin: auto;
+}
+
+
+/**********************************************/
+/***********All Page Footer Style************/
+/**********************************************/
+.wechat{
+  background:tomato;
+  color: white;
+  padding: .5rem 1rem;
+  border-radius: 10px;
+  display: inline-block;
+  width: 15%;
+  line-height: 1.5;
+  position: absolute;
+  visibility: hidden;
+}
+.wechat-link:hover .wechat{
+  visibility: visible;
+}
